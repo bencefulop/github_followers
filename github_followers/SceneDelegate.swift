@@ -58,6 +58,7 @@ extension SceneDelegate {
         let tabbar = UITabBarController()
         UITabBar.appearance().tintColor = .systemGreen
         tabbar.viewControllers = viewcontrollers
+        tabbar.tabBar.backgroundColor = .systemGray
         return tabbar
     }
 }
