@@ -37,7 +37,12 @@ class SearchViewController: UIViewController {
     }
 
     @objc private func pushFollowerListVC() {
-        guard isUsernameEntered else { return }
+        guard isUsernameEntered else {
+        presentGFAlertOnMainThread(alertTitle: "Empty username",
+                                   alertMessage: "Please enter a username so we know who to look for 🥸",
+                                   buttonTitle: "Ok")
+            return
+        }
 
         let followerListVC = FollowerListViewController()
         followerListVC.username = usernameTextField.text
