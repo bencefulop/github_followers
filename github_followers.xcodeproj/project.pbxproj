@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6C93560116E299AB7D93CE19 /* Pods_github_followers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E9F949F01BCDD48A660722 /* Pods_github_followers.framework */; };
 		DD0616C427E2E9A60079C47C /* GFErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0616C327E2E9A60079C47C /* GFErrorMessage.swift */; };
+		DD0616C727E2F1140079C47C /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0616C627E2F1140079C47C /* FollowerCell.swift */; };
+		DD0616C927E2F1920079C47C /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0616C827E2F1920079C47C /* GFAvatarImageView.swift */; };
 		DD50FAC427D84D990035C473 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50FAC327D84D990035C473 /* GFButton.swift */; };
 		DD50FAC627D850D90035C473 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50FAC527D850D90035C473 /* GFTextField.swift */; };
 		DD50FAC827D873BE0035C473 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50FAC727D873BE0035C473 /* FollowerListViewController.swift */; };
@@ -31,6 +33,8 @@
 		A1E9F949F01BCDD48A660722 /* Pods_github_followers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_github_followers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE5D6B3F5AE65567E3A60C7 /* Pods-github_followers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-github_followers.release.xcconfig"; path = "Target Support Files/Pods-github_followers/Pods-github_followers.release.xcconfig"; sourceTree = "<group>"; };
 		DD0616C327E2E9A60079C47C /* GFErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFErrorMessage.swift; sourceTree = "<group>"; };
+		DD0616C627E2F1140079C47C /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		DD0616C827E2F1920079C47C /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		DD50FAC327D84D990035C473 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		DD50FAC527D850D90035C473 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		DD50FAC727D873BE0035C473 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		DD0616C527E2F0EB0079C47C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DD0616C627E2F1140079C47C /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		DDA203BF27E19CF2000A6EBB /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,11 +129,13 @@
 		DDB2C9EB27E174DA0053FBF1 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				DD0616C527E2F0EB0079C47C /* Cells */,
 				DDB2C9E627E15FD10053FBF1 /* GFAlertViewController.swift */,
 				DD50FAC327D84D990035C473 /* GFButton.swift */,
 				DD50FAC527D850D90035C473 /* GFTextField.swift */,
 				DD736F8227DACBBD00627A04 /* GFTitleLabel.swift */,
 				DDB2C9E427E15EFE0053FBF1 /* GFBodyLabel.swift */,
+				DD0616C827E2F1920079C47C /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -164,14 +178,14 @@
 		DDBDF6D827AF76ED00D38CE8 /* github_followers */ = {
 			isa = PBXGroup;
 			children = (
-				DD0616C227E2E9990079C47C /* Utilities */,
 				DDA203C427E1A1F4000A6EBB /* Managers */,
 				DDA203BF27E19CF2000A6EBB /* Models */,
 				DDBDF6D927AF76ED00D38CE8 /* AppDelegate.swift */,
 				DDBDF6DB27AF76ED00D38CE8 /* SceneDelegate.swift */,
-				DDB2C9EC27E1750A0053FBF1 /* Extensions */,
 				DDB2C9EB27E174DA0053FBF1 /* Custom Views */,
 				DDB2C9EA27E174A40053FBF1 /* Screens */,
+				DD0616C227E2E9990079C47C /* Utilities */,
+				DDB2C9EC27E1750A0053FBF1 /* Extensions */,
 				DDB2C9EE27E175590053FBF1 /* Supporting Files */,
 			);
 			path = github_followers;
@@ -296,8 +310,10 @@
 				DDB2C9E927E16B320053FBF1 /* UIViewController+Extension.swift in Sources */,
 				DD50FAC627D850D90035C473 /* GFTextField.swift in Sources */,
 				DDBDF6F027AF7FD900D38CE8 /* FavouritesListViewController.swift in Sources */,
+				DD0616C927E2F1920079C47C /* GFAvatarImageView.swift in Sources */,
 				DD50FAC427D84D990035C473 /* GFButton.swift in Sources */,
 				DD50FAC827D873BE0035C473 /* FollowerListViewController.swift in Sources */,
+				DD0616C727E2F1140079C47C /* FollowerCell.swift in Sources */,
 				DD0616C427E2E9A60079C47C /* GFErrorMessage.swift in Sources */,
 				DDB2C9E527E15EFE0053FBF1 /* GFBodyLabel.swift in Sources */,
 				DDA203C127E19D05000A6EBB /* Follower.swift in Sources */,
