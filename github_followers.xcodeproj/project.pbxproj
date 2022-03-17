@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C93560116E299AB7D93CE19 /* Pods_github_followers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E9F949F01BCDD48A660722 /* Pods_github_followers.framework */; };
-		DD0616C427E2E9A60079C47C /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0616C327E2E9A60079C47C /* ErrorMessage.swift */; };
+		DD0616C427E2E9A60079C47C /* GFErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0616C327E2E9A60079C47C /* GFErrorMessage.swift */; };
 		DD50FAC427D84D990035C473 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50FAC327D84D990035C473 /* GFButton.swift */; };
 		DD50FAC627D850D90035C473 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50FAC527D850D90035C473 /* GFTextField.swift */; };
 		DD50FAC827D873BE0035C473 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50FAC727D873BE0035C473 /* FollowerListViewController.swift */; };
@@ -30,7 +30,7 @@
 		138EA70CA3BCA44152C0FA0E /* Pods-github_followers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-github_followers.debug.xcconfig"; path = "Target Support Files/Pods-github_followers/Pods-github_followers.debug.xcconfig"; sourceTree = "<group>"; };
 		A1E9F949F01BCDD48A660722 /* Pods_github_followers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_github_followers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE5D6B3F5AE65567E3A60C7 /* Pods-github_followers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-github_followers.release.xcconfig"; path = "Target Support Files/Pods-github_followers/Pods-github_followers.release.xcconfig"; sourceTree = "<group>"; };
-		DD0616C327E2E9A60079C47C /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		DD0616C327E2E9A60079C47C /* GFErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFErrorMessage.swift; sourceTree = "<group>"; };
 		DD50FAC327D84D990035C473 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		DD50FAC527D850D90035C473 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		DD50FAC727D873BE0035C473 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		DD0616C227E2E9990079C47C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				DD0616C327E2E9A60079C47C /* ErrorMessage.swift */,
+				DD0616C327E2E9A60079C47C /* GFErrorMessage.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 				DDBDF6F027AF7FD900D38CE8 /* FavouritesListViewController.swift in Sources */,
 				DD50FAC427D84D990035C473 /* GFButton.swift in Sources */,
 				DD50FAC827D873BE0035C473 /* FollowerListViewController.swift in Sources */,
-				DD0616C427E2E9A60079C47C /* ErrorMessage.swift in Sources */,
+				DD0616C427E2E9A60079C47C /* GFErrorMessage.swift in Sources */,
 				DDB2C9E527E15EFE0053FBF1 /* GFBodyLabel.swift in Sources */,
 				DDA203C127E19D05000A6EBB /* Follower.swift in Sources */,
 				DD736F8327DACBBD00627A04 /* GFTitleLabel.swift in Sources */,
