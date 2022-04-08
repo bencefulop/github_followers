@@ -27,6 +27,7 @@
 		DDBDF6EE27AF7F9A00D38CE8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDF6ED27AF7F9A00D38CE8 /* SearchViewController.swift */; };
 		DDBDF6F027AF7FD900D38CE8 /* FavouritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDF6EF27AF7FD900D38CE8 /* FavouritesListViewController.swift */; };
 		DDC26D5527FFC827008A8E56 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC26D5427FFC827008A8E56 /* UIHelper.swift */; };
+		DDC26D5D27FFEB8D008A8E56 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC26D5C27FFEB8D008A8E56 /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		DDBDF6ED27AF7F9A00D38CE8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DDBDF6EF27AF7FD900D38CE8 /* FavouritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListViewController.swift; sourceTree = "<group>"; };
 		DDC26D5427FFC827008A8E56 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		DDC26D5C27FFEB8D008A8E56 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,13 +134,13 @@
 		DDB2C9EB27E174DA0053FBF1 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				DDC26D5B27FFEB4E008A8E56 /* Labels */,
+				DDC26D5A27FFEB2A008A8E56 /* TextFields */,
+				DDC26D5927FFEB1C008A8E56 /* ImageViews */,
+				DDC26D5827FFEB0F008A8E56 /* ViewControllers */,
+				DDC26D5727FFEB06008A8E56 /* Buttons */,
+				DDC26D5627FFEAFB008A8E56 /* Views */,
 				DD0616C527E2F0EB0079C47C /* Cells */,
-				DDB2C9E627E15FD10053FBF1 /* GFAlertViewController.swift */,
-				DD50FAC327D84D990035C473 /* GFButton.swift */,
-				DD50FAC527D850D90035C473 /* GFTextField.swift */,
-				DD736F8227DACBBD00627A04 /* GFTitleLabel.swift */,
-				DDB2C9E427E15EFE0053FBF1 /* GFBodyLabel.swift */,
-				DD0616C827E2F1920079C47C /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -192,6 +194,55 @@
 				DDB2C9EE27E175590053FBF1 /* Supporting Files */,
 			);
 			path = github_followers;
+			sourceTree = "<group>";
+		};
+		DDC26D5627FFEAFB008A8E56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDC26D5C27FFEB8D008A8E56 /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDC26D5727FFEB06008A8E56 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DD50FAC327D84D990035C473 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		DDC26D5827FFEB0F008A8E56 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2C9E627E15FD10053FBF1 /* GFAlertViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DDC26D5927FFEB1C008A8E56 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				DD0616C827E2F1920079C47C /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		DDC26D5A27FFEB2A008A8E56 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				DD50FAC527D850D90035C473 /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		DDC26D5B27FFEB4E008A8E56 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				DD736F8227DACBBD00627A04 /* GFTitleLabel.swift */,
+				DDB2C9E427E15EFE0053FBF1 /* GFBodyLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +373,7 @@
 				DDB2C9E527E15EFE0053FBF1 /* GFBodyLabel.swift in Sources */,
 				DDA203C127E19D05000A6EBB /* Follower.swift in Sources */,
 				DD736F8327DACBBD00627A04 /* GFTitleLabel.swift in Sources */,
+				DDC26D5D27FFEB8D008A8E56 /* GFEmptyStateView.swift in Sources */,
 				DDA203C627E1A207000A6EBB /* NetworkManager.swift in Sources */,
 				DDBDF6EE27AF7F9A00D38CE8 /* SearchViewController.swift in Sources */,
 				DDBDF6DA27AF76ED00D38CE8 /* AppDelegate.swift in Sources */,
