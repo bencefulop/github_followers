@@ -26,6 +26,7 @@
 		DDBDF6E327AF76EE00D38CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBDF6E227AF76EE00D38CE8 /* Assets.xcassets */; };
 		DDBDF6EE27AF7F9A00D38CE8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDF6ED27AF7F9A00D38CE8 /* SearchViewController.swift */; };
 		DDBDF6F027AF7FD900D38CE8 /* FavouritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDF6EF27AF7FD900D38CE8 /* FavouritesListViewController.swift */; };
+		DDC26D5527FFC827008A8E56 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC26D5427FFC827008A8E56 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		DDBDF6E727AF76EE00D38CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDBDF6ED27AF7F9A00D38CE8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DDBDF6EF27AF7FD900D38CE8 /* FavouritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListViewController.swift; sourceTree = "<group>"; };
+		DDC26D5427FFC827008A8E56 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				DD0616C327E2E9A60079C47C /* GFErrorMessage.swift */,
+				DDC26D5427FFC827008A8E56 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				DDB2C9E927E16B320053FBF1 /* UIViewController+Extension.swift in Sources */,
 				DD50FAC627D850D90035C473 /* GFTextField.swift in Sources */,
 				DDBDF6F027AF7FD900D38CE8 /* FavouritesListViewController.swift in Sources */,
+				DDC26D5527FFC827008A8E56 /* UIHelper.swift in Sources */,
 				DD0616C927E2F1920079C47C /* GFAvatarImageView.swift in Sources */,
 				DD50FAC427D84D990035C473 /* GFButton.swift in Sources */,
 				DD50FAC827D873BE0035C473 /* FollowerListViewController.swift in Sources */,
@@ -449,7 +453,6 @@
 			baseConfigurationReference = 138EA70CA3BCA44152C0FA0E /* Pods-github_followers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X3BL8Q43B9;
@@ -478,7 +481,6 @@
 			baseConfigurationReference = AEE5D6B3F5AE65567E3A60C7 /* Pods-github_followers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X3BL8Q43B9;
